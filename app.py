@@ -8,7 +8,7 @@ from config import Config
 import firebase  # noqa: F401
 from utils.logging_config import setup_logging
 
-# Initialize structured logging
+# Initialize structured logging  
 setup_logging()
 
 app = Flask(__name__)
